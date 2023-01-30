@@ -294,6 +294,46 @@ header h4 {
   }
 }
 
+@media (max-width: 415px) {
+  .main__description {
+    margin-bottom: 9vh;
+  }
+
+  .main__max-img {
+    margin-bottom: 6.2vh;
+  }
+
+  .main__feature-heading {
+    margin-bottom: -0.4vh;
+  }
+
+  .main__water-protection {
+    margin-bottom: 4.3vh;
+  }
+
+  .main__panel {
+    margin-bottom: 8.6vh;
+  }
+
+  .main__characteristics-title {
+    margin-bottom: 5.7vh;
+  }
+
+  .main__characteristics-columns {
+    gap: 25.3vw;
+  }
+    .main__characteristics-item {
+      font-size: 16px;
+      width: 34.5vw;
+    }
+  .main__characteristics-item, .border {
+    margin-bottom: 3.5vh;
+  }
+  .main__characteristics {
+    margin-bottom: 4.6vh;
+  }
+}
+
 @media (max-width: 320px) {
   header{
     font-size: 20px;
